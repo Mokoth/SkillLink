@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-i^dyw4^9*piu0e9t3ve8m9cap@m5pvxs#rroq(=-#)cc#-2gz-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["*"] # to be accessible via gitpod online browser
 
 
 # Application definition
@@ -54,7 +54,7 @@ ROOT_URLCONF = 'skill_link.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / "templates"], # to check from the right dir
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
