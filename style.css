@@ -99,3 +99,56 @@
   .partners-section .partner-logo:hover {
     opacity: 1;
   }
+
+      /* Courses Section Styles */
+  .courses-section {
+    padding: 60px 20px;
+    background-color: #f1f3f5;
+  }
+  .courses-section .section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  .courses-card {
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .courses-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+  .courses-card img {
+    border-bottom: 1px solid #e9ecef;
+  }
+  .courses-card-body {
+    padding: 20px;
+  }
+  .courses-card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  .courses-card-text {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  .courses-card-btn {
+    background-color: #004080; /* Dark Blue */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+  .courses-card-btn:hover {
+    background-color: #0056b3; /* Slightly lighter blue */
+  }
+  .courses-filter {
+    margin-bottom: 20px;
+  }
+  .search-bar {
+    margin-bottom: 30px;
+  }
