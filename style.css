@@ -1,37 +1,38 @@
 /* Navbar Styles */
 .navbar {
-    background-color: #004080; /* Dark blue */
-  }
-  .navbar-brand {
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
-  .navbar-nav .nav-link {
-    font-size: 1rem;
-    color: #f8f9fa; /* Light color */
-  }
-  .navbar-nav .nav-link.active, .navbar-nav .nav-link:hover {
-    color: #ffd700; /* Gold color for hover and active */
-  }
-  .btn-outline-light {
-    color: #f8f9fa; /* Light color */
-    border-color: #f8f9fa;
-  }
-  .btn-outline-light:hover {
-    color: #004080; /* Dark blue for hover */
-    background-color: #f8f9fa;
-    border-color: #004080;
-  }
-  .dropdown-menu {
-    background-color: #004080; /* Dark blue for dropdown */
-  }
-  .dropdown-menu .dropdown-item {
-    color: #f8f9fa;
-  }
-  .dropdown-menu .dropdown-item:hover {
-    background-color: #0056b3; /* Slightly lighter blue */
-    color: #f8f9fa;
-  }
+  background-color: #FFFFFF; /* Light Blue */
+  font-weight: bold;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+  
+}
+.navbar-nav .nav-link {
+  font-size: 1rem;
+  color: #ebb917; /* Light color */
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:hover {
+  color: #fa7c15; /* Orange color for hover and active */
+}
+.btn{
+  font-weight: bold;
+}
+.btn-outline-light:hover {
+  color: #004080; /* Dark blue for hover */
+  background-color: #f4f81d;
+  border-color: #81b5e9;
+}
+.dropdown-menu {
+  background-color: #f1f3f5; /* Dark blue for dropdown */
+  font-weight: bold;
+}
+.dropdown-menu .dropdown-item {
+  color: #f8f9fa;
+}
+.dropdown-menu .dropdown-item:hover {
+  background-color: #f4f81d; /* Slightly lighter blue */
+  color: #f8f9fa;
+}
 
   /* Hero Section Styles */
   .hero-section {
@@ -74,7 +75,7 @@
     color: #004080; /* Dark Blue */
   }
   .feature-icons {
-    margin-top: 40px;
+    margin-top: 30px;
   }
   .feature-icons .icon {
     font-size: 2rem;
@@ -121,6 +122,7 @@
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   }
   .courses-card img {
+    align-self: center;
     border-bottom: 1px solid #e9ecef;
   }
   .courses-card-body {
