@@ -1,0 +1,22 @@
+/*projects*/
+#one{
+    background-color: #FFFAFA;
+}
+#two{
+    background-color: #FFFAFA;
+}
+#three{
+    background-color: #FFFAFA;
+}
+.showcase .showcase-text{
+    padding: 3rem;
+}
+.showcase .showcase-img {
+    min-height: 20rem;
+    background-size: cover;
+}
+@media (min-width: 768px) {
+.showcase .showcase-text {
+    padding-top: 14rem;
+}
+}

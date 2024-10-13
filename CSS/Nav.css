@@ -13,7 +13,7 @@
 .navbar-nav .nav-link.active, .navbar-nav .nav-link:hover {
   color: #fa7c15; /* Orange color for hover and active */
 }
-.btn{
+.navbar .btn{
   font-weight: bold;
 }
 .btn-outline-light:hover {
@@ -36,7 +36,7 @@
 /* Hero Section Styles */
 .hero-section {
   position: relative;
-  background: url('./images/image2.jpg') no-repeat center center;
+  background: url('') no-repeat center center;
   background-size: cover;
   color: #f8f9fa;
   text-align: center;
@@ -64,17 +64,9 @@
   font-size: 1.5rem;
   margin-bottom: 40px;
 }
-.btn-primary {
-  background-color: #ffd700; /* Gold */
-  border: none;
-  color: #004080; /* Dark Blue */
-}
-.btn-primary:hover {
-  background-color: #f8f9fa; /* Light background */
-  color: #004080; /* Dark Blue */
-}
 .feature-icons {
   margin-top: 30px;
+  color: yellow;
 }
 .feature-icons .icon {
   font-size: 2rem;
@@ -87,7 +79,7 @@
 
 /* Partners Section Styles */
 .partners-section {
-  background-color: #f8f9fa;
+  background-color: #D3D3D3;
   padding: 30px 20px;
 }
 .partners-section .partner-logo {
