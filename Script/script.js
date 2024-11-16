@@ -2,6 +2,7 @@ const forms = document.querySelector(".forms"),
   pwShowHide = document.querySelectorAll(".eye-icon"),
   links = document.querySelectorAll(".link");
 
+
 // Add click event listener to each eye icon for toggling password visibility
 pwShowHide.forEach(eyeIcon => {
   eyeIcon.addEventListener("click", () => {
