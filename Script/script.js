@@ -1,6 +1,4 @@
-const forms = document.querySelector(".forms"),
-  pwShowHide = document.querySelectorAll(".eye-icon");
-
+const pwShowHide = document.querySelectorAll(".eye-icon");
 
 // Add click event listener to each eye icon for toggling password visibility
 pwShowHide.forEach(eyeIcon => {
@@ -18,4 +16,12 @@ pwShowHide.forEach(eyeIcon => {
     });
   });
 });
+
+//Add click listener on login page to move to dashboard
+document.getElementById("logs").addEventListener("click", (e) => {
+  e.preventDefault();
+  window.location="Dashboard.html";
+});
+
+
 
