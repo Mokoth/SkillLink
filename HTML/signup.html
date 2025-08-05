@@ -1,68 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> SkillLink Signup </title>
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="../CSS/Signup.css">
-
-  <!-- Boxicons CSS -->
-  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-
+  <title>Sign Up & Login</title>
+  <style>
+    body { font-family: Arial; padding: 20px; }
+    input { margin: 5px 0; display: block; padding: 8px; }
+    .container { max-width: 300px; margin: auto; }
+    .message { color: red; margin-top: 10px; }
+  </style>
 </head>
-
 <body>
-  <section class="container forms">
-    <!-- Signup Form -->
-    <div class="form signup">
-      <div class="form-content">
-        <header>Signup</header>
-        <form id="signupForm">
-          <div class="field input-field">
-            <input type="email" placeholder="Email" id="email" class="input">
-          </div>
 
-          <div class="field input-field">
-            <input type="password" placeholder="Create password" id="password" class="password">
-          </div>
+<div class="container">
+  <h2>Sign Up</h2>
+  <input type="text" id="signup-username" placeholder="Username">
+  <input type="password" id="signup-password" placeholder="Password">
+  <button onclick="signUp()">Sign Up</button>
 
-          <div class="field input-field">
-            <input type="password" placeholder="Confirm password" id="confirm_password" class="password">
-            <i class='bx bx-hide eye-icon'></i>
-          </div>
+  <h2>Log In</h2>
+  <input type="text" id="login-username" placeholder="Username">
+  <input type="password" id="login-password" placeholder="Password">
+  <button onclick="logIn()">Log In</button>
 
-          <div class="field button-field">
-            <button type="submit">Signup</button>
-          </div>
-        </form>
-      </div>
-
-      <div class="line"></div>
-
-      <div class="media-options">
-        <a href="#" class="field facebook">
-          <i class='bx bxl-facebook facebook-icon'></i>
-          <span>Signup with Facebook</span>
-        </a>
-      </div>
-
-      <div class="media-options">
-        <a href="#" class="field google">
-          <img src="../images/google.png" alt="Google" class="google-img">
-          <span>Signup with Google</span>
-        </a>
-      </div>
-      <p> Already have an Account, <a href="../HTML/login.html"><ul>login</ul></a></p>
-    </div>
-
-    
-  </section>
-
-
+  <div class="message" id="message"></div>
+</div>
   <!-- JavaScript -->
   <script src="../Script/script.js"></script>
   
